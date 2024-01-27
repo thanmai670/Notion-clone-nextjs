@@ -18,7 +18,7 @@ export const Navbar = () => {
         )}>
             <Logo/>
             <div className="md:ml-auto md:justify-end justify-between w-full flex item-center gap-x-2">
-                    {isAuthenticated && isLoading && (
+                    {!isAuthenticated && !isLoading && (
                         <>
                     <SignInButton mode='modal'>
                         <Button variant='ghost' size='sm'>Log in</Button>

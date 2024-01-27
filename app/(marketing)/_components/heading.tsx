@@ -24,7 +24,7 @@ export const Heading = () => {
             {isAuthenticated && isLoading &&(
                 <Button asChild>
                     <Link href='/documents'></Link>
-                Enter Thansion
+                    Enter Thansion
                 <ArrowRight className="h-4 w-4 ml-2"/>
             </Button>
             )}
